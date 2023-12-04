@@ -1,0 +1,38 @@
+.PartItemPagination_root {
+	display: flex;
+	flex-direction: row;
+}
+
+.PartItemPagination_count {
+	display: flex;
+}
+
+.PartItemPagination_prev, .PartItemPagination_countButton {
+	margin-right: 5px;
+}
+
+.PartItemPagination_endButton {
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid black;
+	height: 35px;
+	font-family: Arial;
+	width: 75px;
+}
+
+.PartItemPagination_countButton {
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid black;
+	font-family: Arial;
+}
+
+.PartItemPagination_activeButton {
+	background-color: #24a0ed;
+	color: white;
+	margin-right: 5px;
+}
+
+.PartItemPagination_endButton:hover, .PartItemPagination_countButton {
+	cursor:  pointer;
+}
