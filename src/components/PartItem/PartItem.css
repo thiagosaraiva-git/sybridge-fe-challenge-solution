@@ -58,3 +58,8 @@
 .PartItem_button:hover {
     background-color: #2980b9;
 }
+
+.PartItem_part-name, 
+.PartItem_material-name{
+    margin-bottom: 0.3rem;
+}
