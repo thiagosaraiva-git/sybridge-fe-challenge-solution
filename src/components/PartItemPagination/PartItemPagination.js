@@ -5,19 +5,19 @@ export function PartItemPagination(props) {
 
 	const pageArray = new Array(props.totalPageCount).fill(0);
 
-	function onPrevClick() {
+	const onPrevClick = () => {
 		if (props.currentPage > 1) {
 			props.onPageChange(props.currentPage - 1);			
 		}
 	}
 
-	function onNextClick() {
+	const onNextClick = () => {
 		if (props.currentPage < props.totalPageCount) {
 			props.onPageChange(props.currentPage + 1);
 		}
 	}
 
-	function onPageClick(newPage) {
+	const onPageClick = (newPage) => {
 		props.onPageChange(newPage);
 	}
 

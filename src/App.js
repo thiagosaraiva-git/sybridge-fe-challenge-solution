@@ -1,5 +1,5 @@
 import './App.css';
-import {PartsLibrary} from './PartsLibrary';
+import { PartsLibrary } from './pages/PartsLibrary/PartsLibrary';
 
 function App() {
   return (

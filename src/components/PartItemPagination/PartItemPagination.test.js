@@ -1,5 +1,5 @@
-import {render, screen, fireEvent} from '@testing-library/react';
-import {PartItemPagination} from './PartItemPagination';
+import { render, screen } from '@testing-library/react';
+import { PartItemPagination } from './PartItemPagination';
 
 test('renders Prev and Next buttons', () => {
 	render(<PartItemPagination />);
